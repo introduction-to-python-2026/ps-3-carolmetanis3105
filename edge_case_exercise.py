@@ -10,5 +10,8 @@ def move(my_list, direction):
      if i_of_one != 0:
        my_list[i_of_one] = 0
        my_list[i_of_one - 1] = 1
+
+  else:
+    print("unknown, error")
        
   return my_list
