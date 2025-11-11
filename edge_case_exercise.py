@@ -7,7 +7,7 @@ def move(my_list, direction):
        my_list[i_of_one + 1] = 1
      
 
-  if direction == 'left':
+  elif direction == 'left':
      if i_of_one != 0:
        my_list[i_of_one] = 0
        my_list[i_of_one - 1] = 1
