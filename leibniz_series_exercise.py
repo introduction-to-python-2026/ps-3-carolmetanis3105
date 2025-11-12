@@ -1,6 +1,6 @@
-import random
+def approximate_pi(num_of_points):
+    import random
 
-def estimate_pi(num_of_points):
     count_in_circle = 0
     for _ in range(num_of_points):
         radius = 0.5
