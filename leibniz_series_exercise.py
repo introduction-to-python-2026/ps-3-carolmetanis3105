@@ -1,4 +1,4 @@
-def estimate_pi(num_terms):
+def approximate_pi(num_terms):
    leibniz_series = []
    for i in range(num_terms):
        leibniz_series.append((-1)**i / (2*i + 1))
